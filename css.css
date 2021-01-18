@@ -1,0 +1,68 @@
+/* bootstrap 分页样式 */
+.pagination > .active{
+    color: #fff;
+    cursor: default;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.pagination > .active:hover,
+.pagination > .active:focus{
+    color: #fff;
+}
+.pagination{
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    padding-left: .15625rem;
+    padding-right: .15625rem;
+}
+.pagination > a,
+.pagination > span,
+.pagination > form{
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #666;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.pagination > form{
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagination > form input{
+    font-size: 12px;
+}
+.pagination > form .taopage{
+    display: inline-block;
+    float: left;
+    background-color: #ddd;
+    color: #666;
+    padding: .53125rem .625rem;
+    margin: -1px;
+}
+.pagination > form .taopage:hover{
+    color: #777;
+}
+.pagination > form .totpage{
+    width: 55px;
+    float: right;
+    padding: .46875rem 0 .46875rem .46875rem;
+    margin-left: 1px;
+}
